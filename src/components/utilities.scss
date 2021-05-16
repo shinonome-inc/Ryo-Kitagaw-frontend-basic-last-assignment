@@ -2,3 +2,7 @@
 h2 {
   font-size: 38px;
 }
+@use "variables" ;
+body{
+  font-family: variables.$fontfamily-goshic;
+}
