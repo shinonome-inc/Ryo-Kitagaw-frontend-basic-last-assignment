@@ -1,12 +1,11 @@
 /* 使用例 */
+@use "variables" as *;
+body {
+  font-family: $fontfamily-gothic;
+}
+
+
 h2 {
   font-size: 38px;
 }
-@use "varables";
-body {
-  font-family: variables.$fontfamily-goshic;
-}
-section{
-  font-family:variables.$fontfamily-goshic
-  
-}
+
