@@ -17,9 +17,7 @@ $fontsize-xl: 36px;
 $fontsize-xxl: 40px;
 
 $fontfamily-mincho:  "Roboto", "Noto Sans JP";
-$fontfamily-gothic:  "Noto Serif JP";
-$fontfamily:sans-serif;
-$fontfamily:serif;
+$fontfamily-gothic:  "Noto Serif JP",sans-serif;
 $grid-breakpoints: (
   sm: 576px,
   md: 768px,
